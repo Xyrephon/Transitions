@@ -10,10 +10,15 @@ import UIKit
 
 class UpdatedViewController : UIViewController
 {
+    @IBOutlet private weak var topImage: UIImageView!
+    @IBOutlet private weak var bottomImage: UIImageView!
+    
+    
     override func viewDidLoad()
     {
         //Load the parent version of a View.
         super.viewDidLoad()
         //Load this pages components.
+        bottomImage.image = UIImage(named: "MonsterProject")
     }
 }

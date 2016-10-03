@@ -44,12 +44,27 @@
                     <view key="view" contentMode="scaleToFill" id="kiT-Bn-l21">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift Notes" translatesAutoresizingMaskIntoConstraints="NO" id="PwI-gH-TNK">
+                                <rect key="frame" x="179" y="100" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aqu-U7-I34">
+                                <rect key="frame" x="180" y="337" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.32980109211422848" blue="0.94605496274437706" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomImage" destination="Aqu-U7-I34" id="iOj-xE-E7g"/>
+                        <outlet property="topImage" destination="PwI-gH-TNK" id="MBh-8C-1cA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvI-Yv-Eao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="450" y="19"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Swift Notes" width="1042" height="745"/>
+    </resources>
 </document>
